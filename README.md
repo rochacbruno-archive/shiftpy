@@ -1,6 +1,12 @@
 # shiftpy
 Tools for running Python Apps on OpenShift Red Hat Cloud
 
+[![Travis CI](http://img.shields.io/travis/rochacbruno/shiftpy.svg)](https://travis-ci.org/rochacbruno/shiftpy)
+[![Code Health](https://landscape.io/github/rochacbruno/shiftpy/master/landscape.svg?style=flat)](https://landscape.io/github/rochacbruno/shiftpy/master)
+
+<a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=rochacbruno%40gmail%2ecom&amp;lc=BR&amp;item_name=ShiftPy&amp;no_note=0&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHostedGuest"><img alt='Donate with Paypal' src='http://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif' /></a>
+
+
 # install
 
 ```pip install shiftpy```
