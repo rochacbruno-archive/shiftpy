@@ -14,7 +14,8 @@ Tools for running Python Apps on OpenShift Red Hat Cloud
 # Available tools
 
 - env.getvar - Get openshift env var
-- env.listvars - List all openshift env vars
+- env.listvars - Print all openshift env vars
+- env.getallvars - Get all vars as a dict
 - wsgi_utils.envify - Wrap wsgi app in Openshift Virtualenv
 - **ADD YOURS, please contribute**
 
@@ -35,6 +36,18 @@ Tools for running Python Apps on OpenShift Red Hat Cloud
 OPENSHIFT_HOMEDIR = 'app-root/w543543543543543/home/'
 OPENSHIFT_APP_NAME = 'yourappname'
 ...
+```
+
+# getallvars
+
+```python
+> from shiftpy.env import getallvars
+> allvars = getallvars()
+> print allvars
+{'OPENSHIFT_FOO': 'BAR',
+ 'OPENSHIFT_HOMEDIR': '/tmp',
+ 'OPENSHIFT_PYTHON_DIR': '/tmp/python'}
+
 ```
 
 # envify
